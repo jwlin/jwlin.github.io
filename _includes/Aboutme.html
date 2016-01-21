@@ -1,6 +1,6 @@
 <div class="sidebar-module about">
   <h4>{{ site.locales[site.default_locale].Aboutme }}</h4>
-  <img title="{{site.author}}" src="{{site.aboutme_photo}}" alt="{{site.author}}"/>
+  <!--<img title="{{site.author}}" src="{{site.aboutme_photo}}" alt="{{site.author}}"/>-->
   <span>{{site.aboutme}}</span>
   <br />
 
@@ -12,7 +12,7 @@
   <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">Email</a> /
   {% endif %}
   {% if site.github_username != empty %}
-  <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}">GitHub</a> /
+  <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}">GitHub</a>
   {% endif %}
   {% if site.twitter_username != empty %}
   <a href="https://twitter.com/{{site.twitter_username}}" title="TwitterID: {{site.twitter_username}}">Twitter</a>

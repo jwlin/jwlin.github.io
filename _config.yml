@@ -13,7 +13,7 @@ locale: zh_TW
 twitter_username: ""
 github_username: "jwlin"
 disqus_shortname: ""
-favicon: "/images/favicon.ico"
+favicon: ""
 aboutme: # these are shown on aboutme-sidebar.
 aboutme_photo: https://avatars2.githubusercontent.com/u/5249835?v=3&s=460 # your photo.
 
