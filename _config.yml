@@ -1,24 +1,46 @@
-title: 
-description: 
+### Site info:
+title: Title
+tagline: tagline
+author: Jun-Wei Lin
+email: 
+description: "Jun-Wei Lin's blog." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jwlin.github.io" # the base hostname & protocol for your site
+locale: zh_TW
 
-url: jwlin.github.io
-baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+### Personal info and site tools info:
+twitter_username: 
+github_username:  jwlin
+disqus_shortname: 
+favicon: "/images/favicon.ico"
+aboutme: Hi, this is Jun-Wei Lin. # these are shown on aboutme-sidebar.
+aboutme_photo: https://avatars2.githubusercontent.com/u/5249835?v=3&s=460 # your photo.
 
-markdown: redcarpet
+
+### Site setting:
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"  
+      PostDate: "on "
+
+
+### Build settings
+markdown: kramdown
 highlighter: pygments
 gems: [jekyll-paginate]
 paginate: 5
-
-navigation:
- - title: Home
-   url: /index.html
-
-social:
-   github:
-   twitter: 
-   facebook: 
-   email:
-
-google_analytics: ""

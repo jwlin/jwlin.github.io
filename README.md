@@ -1,49 +1,53 @@
-![preview Long Haul](/preview.jpg)
+Freshman21
+==========
 
-Long Haul is a minimal jekyll theme built with COMPASS / SASS / SUSY and focuses on long form blog plosts. It is meant to used as a starting point for a jekyll blog/website.
+Freshman21 is a Jekyll blog theme, base on theme [Freshman](http://github.com/yulijia/freshman). 
 
-If you really enjoy Long Haul and want to give me credit somewhere on the send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaier).
+A tribute to WordPress Theme Twenty-Twelve and Twenty-eleven.
 
-####[View Demo](http://brianmaierjr.com/long-haul)
+Enjoy.
 
-## Features
 
-- Minimal, Type Focused Design
-- Built with SASS + COMPASS
-- Layout with SUSY Grid
-- SVG Social Icons
-- Responsive Nav Menu
-- XML Feed for RSS Readers
-- Contact Form via Formspree
-- 5 Post Loop with excerpt on Home Page
-- Previous / Next Post Navigation
-- Estimated Reading Time for posts
-- Stylish Drop Cap on posts
-- A Better Type Scale for all devices
+![Screen](http://i.imgur.com/oSp7kacl.png)
 
-## Setup
+### Version 2.0 update 2015.03.31
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
-3. Clone it
-4. Install susy `gem install susy` 
-5. Install normalize `gem install normalize-scss`
-6. Run Jekyll `jekyll serve -w`
-7. Run `compass watch`
-8. Customize!
+- master branch: the simplest template, original version.
 
-## Site Settings
+- gh-pages branch: master branch with google analytics js template, BackToTop js script, readmore module.
 
-The main settings can be found inside the `_config.yml` file:
+Clone master branch: 
+ 
+`git clone https://github.com/yulijia/freshman21.git -b master --single-branch`
+ 
+Clone gh-pages branch: 
+ 
+`git clone https://github.com/yulijia/freshman21.git -b gh-pages --single-branch`
 
-- **title:** title of your site
-- **description:** description of your site
-- **url:** your url
-- **paginate:** the amount of posts displayed on homepage
-- **navigation:** these are the links in the main site navigation
-- **social** diverse social media usernames (optional)
-- **google_analytics** Google Analytics key (optional)
 
-## License
+### How to install this theme?
 
-This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+```
+# please make sure you have already installed git tools and ruby tools(gem)
+$ gem install sass
+$ gem install jekyll
+$ git clone https://github.com/yulijia/freshman21.git
+$ mv freshman21/ yourblogname.github.io/
+```
+
+### A Summary of Features
+
+- Provide single column and two columns layout
+- Powerful configure file
+- Comments by Disqus
+- Support LaTeX (by MathJax)
+- Syntax highlighting
+
+
+### Demo
+
+Single column, please see [my own blog](http://yulijia.net/en/)
+
+Two columns, please see the [theme website](http://yulijia.net/freshman21/)
+
+
