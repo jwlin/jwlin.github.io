@@ -1,4 +1,4 @@
-title: Jun-Wei Lin
+title: 
 description: 
 
 url: jwlin.github.io
@@ -14,15 +14,11 @@ paginate: 5
 navigation:
  - title: Home
    url: /index.html
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
 
 social:
-   github: jwlin
+   github:
    twitter: 
    facebook: 
-   email: user@user.com
+   email:
 
 google_analytics: ""
