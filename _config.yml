@@ -2,7 +2,7 @@
 title: Jun-Wei Lin
 tagline: Blog
 author: Jun-Wei Lin
-email: 
+email: ""
 description: "Jun-Wei Lin's blog." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: ""
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -10,9 +10,9 @@ url: "https://jwlin.github.io" # the base hostname & protocol for your site
 locale: zh_TW
 
 ### Personal info and site tools info:
-twitter_username: 
-github_username: jwlin
-disqus_shortname: 
+twitter_username: ""
+github_username: "jwlin"
+disqus_shortname: ""
 favicon: "/images/favicon.ico"
 aboutme: # these are shown on aboutme-sidebar.
 aboutme_photo: https://avatars2.githubusercontent.com/u/5249835?v=3&s=460 # your photo.
