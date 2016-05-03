@@ -1,9 +1,9 @@
 ### Site info:
-title: Null Hypothesis
+title: castman
 tagline: Through readiness and discipline we are masters of our fate.
 author: Jun-Wei Lin
 email: ""
-description: "Jun-Wei Lin's blog." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+description: "Castman's blog." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jwlin.github.io" # the base hostname & protocol for your site
