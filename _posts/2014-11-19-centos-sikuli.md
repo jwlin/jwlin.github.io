@@ -74,6 +74,6 @@ java -jar sikuli-setup.jar
 
 裝好之後 `java -jar sikuli-ide.jar` 或 `./runIDE` 即可啟動
 
-![sikuli-3](https://raw.githubusercontent.com/jwlin/jwlin.github.io/master/images/2014-11-19-sikuli-3.jpg)
+![sikuli-3](https://raw.githubusercontent.com/jwlin/jwlin.github.io/master/images/2014-11-19-sikuli-3.png)
 
 P.S. Windows 上安裝 sikuli 只需要第五步...  
