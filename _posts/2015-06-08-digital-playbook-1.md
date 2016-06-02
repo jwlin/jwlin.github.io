@@ -7,7 +7,7 @@ tags:
 
 ---
 
-[20150925 更新] 美國政府最近更發布了[官方網站設計指南](https://playbook.cio.gov/designstandards/)，[相關中文報導](http://www.inside.com.tw/2015/09/29/us-government-releases-new-design-standards)。
+20150925 更新: 美國政府最近更發布了[官方網站設計指南](https://playbook.cio.gov/designstandards/)，[相關中文報導](http://www.inside.com.tw/2015/09/29/us-government-releases-new-design-standards)。
 
 2013年10月，美國政府的HealthCare.gov網站上線，目的是讓沒有自行營運網站的各州，其居民能夠輸入資料、搜尋配對適合自己的醫療保險公司以及相關補助，也是俗稱Obamacare健保政策的一部分。結果這個花了五百萬美金打造的網站，竟無法應付龐大的流量，上線後的一週內只有1%的人能夠完成他們的查詢及送件，且就算資料送到了後端，很多醫療保險公司反應收到的資料並不齊全，更不用說網路上數百個假健保網站橫行，媒體還報導網站本身會將民眾個資分享給廣告公司，總之這個網站是個大災難，最後請了一位在google工作八年的可靠度工程師Mikey Dickerson來解決，而事後評估整個網站的成本高達17億美金，此事件詳情可參照[維基百科](http://en.wikipedia.org/wiki/HealthCare.gov)。
 
@@ -15,7 +15,7 @@ tags:
 
 「數位服務就是以數位渠道（digital channel）與民眾互動，例如透過網站、Email、App提供的服務。…今日，我們有太多的數位服務差強人意、時程延遲或超出預算。...透過遵循以下13個來自業界與政府的最佳實踐（Best Practice），將幫助政府創建更有效的數位服務。」
 
-1. 了解使用者需求（Understand what people need）
+**了解使用者需求（Understand what people need）**
 
 專案必須永遠緊跟使用者需求 – 使用者真正需要的是什麼，服務要以什麼方式融入使用者的生活。無論使用者是民眾或是政府雇員，他們必須在專案初期就加入，且在開發過程中持續測試你的產品，以確保我們知道專案真正的重點是什麼。記住，永遠讓使用者需求 – 而非組織架構或閉門造車 – 決定專案的技術與設計
 
@@ -27,7 +27,7 @@ tags:
 * 專案開發過程中，定期讓使用者試用以確保符合其需要
 
 
-2. 聚焦使用者的整體經驗（Address the whole experience, from start to finish）
+**聚焦使用者的整體經驗（Address the whole experience, from start to finish）**
 
 雖然我們做的是數位服務，但必須了解：民眾取得服務的方式不僅有一種，甚至不是數位的。不管是上網、透過App、打電話，甚至親自跑一趟，都必須確保民眾每一次不論透過什麼方式，都能一步步接近他需要的結果。
 
@@ -36,7 +36,7 @@ tags:
 * 設計數位服務時，必須與實體服務流程整合，使服務一體化
 * 在服務的各個步驟設計評估指標，評量該步驟是否符合使用者需要
 
-3. 簡單直覺（Make it simple and intuitive）
+**簡單直覺（Make it simple and intuitive）**
 
 政府服務不應該讓人有壓力、困惑或懼怕，我們的工作是讓服務夠簡單及直覺到使用者第一次使用且沒有人幫助的情況下就能上手。
 
@@ -45,7 +45,7 @@ tags:
 * 遵循可用性的最佳實踐（Accessibility best practices）以確保所有人都能使用服務
 * 用淺顯易懂的語言，並在所有地方（不論是數位或實體）保持語言跟設計的一致性（淺顯易懂的語言可參考美國直白書寫法案）
 
-4. 敏捷與迭代的開發方式（Build the service using agile and iterative practices）
+**敏捷與迭代的開發方式（Build the service using agile and iterative practices）**
 
 敏捷跟迭代是打造數位服務的最佳開發方法。要讓專案成功跟符合使用者需求最好的方式就是快速產出雛形，盡快讓使用者試用，並據以調整專案。能夠做到這件事的關鍵能力就是自動化測試跟部署，才能讓新功能可以很輕易地更新。
 
@@ -54,7 +54,7 @@ tags:
 * 用 issue tracker 管理跟排序你的需求跟 bugs，導入版本控制跟 code review
 * 保持小規模且專注的開發團隊，並限制團隊的組織層級，團隊成員可使用戰情室、每日立會（站著開會）、群聊工具等頻繁且緊密的溝通。
 
-5. 適當的合約書與預算結構（Structure budgets and contracts to support delivery）
+**適當的合約書與預算結構（Structure budgets and contracts to support delivery）**
 
 大多數專案都是外包，外包必須依照合約執行，且使用政府預算付款，因此有經驗的承辦人、好的合約範本以及有彈性的預算執行方式，都是打造數位服務不可或缺的助力。例如使用者需求探索、雛型產出、其他開源專案評估、需求修改、專案里程碑、雲端運算資源採購等項目，都是合約書內要考量的內容。美國政府有另外一本指南（[The TechFAR Handbook](https://playbook.cio.gov/techfar/)）專文探討。
 
@@ -73,7 +73,7 @@ tags:
 
 以我接觸過的國內政府現況來說，以上這些內容大部分都有，但合約範本還是偏向傳統waterfall模型，因此在專案彈性上，例如需求順序調整、雛型產出週期、開源方案的評估方面都不足。另外系統開發前的使用者需求探索及使用者的參與也不夠，這會導致專案需求一改再改，廠商被一凹再凹，弄得甲乙雙方都很累…
 
-6. 一人當責（Assign one leader and hold that person accountable）
+**一人當責（Assign one leader and hold that person accountable）**
 
 每個專案都要有一個人負責產品的成敗，並賦予其相應的權力（而非只講義務），專案的各項行政及技術決定由他說了算，他的終極責任就是確保產品符合使用者需求，並且以此來評估負責人的績效。
 
