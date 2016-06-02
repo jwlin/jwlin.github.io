@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 事求人開放資料版網站新增功能
-categories: 程式
+categories: Programming
 tags:
   - 事求人
   - 開放資料
