@@ -2,7 +2,7 @@
 layout: post
 title: 將 Windows 下 os.path.join 的結果轉為 Unix style
 date: 2015-10-04 14:40:45
-categories: 程式
+categories: Programming
 tags:
   - Python
 ---

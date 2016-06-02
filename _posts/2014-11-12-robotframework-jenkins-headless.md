@@ -1,10 +1,11 @@
 ---
 layout: post
-title: 將 Windows 下 os.path.join 的結果轉為 Unix style
+title: Robotframework, Selenium, Jenkins, Headless, Xvfb in CentOS
 date: 2014-11-12
-categories: 程式
+categories: Programming
 tags:
-  - Python
+  - Software Testing
+
 ---
 
 工作上有使用 Robotframework 搭配 Selenium2Library 驅動 Firefox/Chrome 對網站做測試，並整合進 jenkins 的自動部署流程中。最近需要讓這些 test cases 能夠在沒有 X server (GUI) 的 CentOS 6.5 上面跑，同時也設定到該主機上的 jenkins 專案內。上網查了資料後很快找到解法，主要參考[這篇](http://laurent.bristiel.com/robot-framework-selenium-and-xvfb/)。
@@ -30,5 +31,5 @@ DISPLAY=:1 import -window root test.png
 
 裝好 Xvfb 及 Firefox，指定 DISPLAY =:1 之後，就可以跑跑看 Robotframework 的 test cases，應該沒問題。至於如何整合進 jenkins？當然可以土法煉鋼先在 server 上開一個 Xvfb，並在 jenkins 的 robot command 前增加 export DISPLAY=:1，但 jenkins 其實有 [Xvfb Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Xvfb+Plugin)，裝好之後就可以自動在專案 build 之前開一個 Xvfb，build 之後自動關閉。
 
-![jenkins-1](https://raw.githubusercontent.com/jwlin/jwlin.github.io/master/images/2014-11-12-jenkins-1)
+![jenkins-1](https://raw.githubusercontent.com/jwlin/jwlin.github.io/master/images/2014-11-12-jenkins-1.png)
 ![jenkins-2](https://raw.githubusercontent.com/jwlin/jwlin.github.io/master/images/2014-11-12-jenkins-2.png)
