@@ -2,7 +2,7 @@
 layout: post
 title: 2014 Federal Plain Language Report Card
 date: 2015-02-04
-categories: 政府
+categories: 政府與資訊
 tags:
 
 ---

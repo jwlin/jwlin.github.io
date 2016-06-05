@@ -2,7 +2,7 @@
 layout: post
 title: 美國政府數位服務教戰手冊（U.S. Digital Service Playbook）（上）
 date: 2015-06-08
-categories: 政府
+categories: 政府與資訊
 tags:
 
 ---
