@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Quarter at UCI (1) The Difference
+title: First Quarter at UCI - The Difference
 categories: 研究
 tags:
   - 研究
