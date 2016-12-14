@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Quarter at UCI (2): Question behind the Question
+title: First Quarter at UCI: Question behind the Question
 categories: 研究
 tags:
   - 研究
