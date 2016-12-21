@@ -24,7 +24,6 @@ Python 3.5.2
 
 > pip --version
 pip 9.0.1 from c:\virtualenv\ptt-beauty-py35-64\lib\site-packages (python 3.5)
-
 ```
 
 接著安裝所需套件，你可以依照 `requirement.txt` 中所列的套件一一安裝，也可以一次全部安裝
@@ -37,7 +36,6 @@ pip install -r requirement.txt
 
 ```
 python -c "import requests; import bs4; import matplotlib"
-
 ```
 
 ## 與網站 Server 溝通並取得網頁資料
