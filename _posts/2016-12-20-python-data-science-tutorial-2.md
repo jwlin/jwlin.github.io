@@ -10,6 +10,8 @@ tags:
 
 [本節完整範例程式請點此處](https://gist.github.com/jwlin/b6063fddff863b8e9405e519d38c3c9f)
 
+[requirement.txt](https://gist.github.com/jwlin/f75a455d2702d0742bf8102a79e8eb34)
+
 ## 範例: PTT Beauty 板今日圖片下載器
 
 PTT Beauty 板今日圖片下載器，會把表特板今天所有文章的圖片下載到本機端，同時儲存一些文章資訊。本系列文章藉由會實作這個範例，說明 Python 網頁爬蟲與資料分析的入門技巧。
