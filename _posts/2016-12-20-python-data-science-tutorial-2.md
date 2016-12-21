@@ -61,7 +61,7 @@ def get_web_page(url):
         return resp.text
 ```
 
-`requests.get()` 需要提供網址作為引數, 而 `cookies={'over18': '1'}` 是 PTT 網站有些板會詢問你是否已滿 18 歲, 因此將回答先存在 cookie 中一併傳給 server. `requests.get()` 的結果是 `request.Response` 物件, 我們可以先透過該物件的 `.statu_code` 屬性取得 server 回覆的狀態碼 (例如 200 表示正常, 404 表示找不到網頁等), 若狀態碼為 200, 代表正常回應, 再透過 `.text`屬性取得 server 回覆的網頁內容. 若狀態碼異常則回覆 None.
+`requests.get()` 需要提供網址作為引數, 而 `cookies={'over18': '1'}` 是 PTT 網站有些板會詢問你是否已滿 18 歲, 因此將回答先存在 cookie 中一併傳給 server. `requests.get()` 的結果是 `request.Response` 物件, 我們可以先透過該物件的 `statu_code` 屬性取得 server 回覆的狀態碼 (例如 200 表示正常, 404 表示找不到網頁等), 若狀態碼為 200, 代表正常回應, 再透過 `text`屬性取得 server 回覆的網頁內容. 若狀態碼異常則回覆 None.
 
 定義好 `get_web_page()` 函式之後, 就能呼叫它來取得網頁內容:
 
