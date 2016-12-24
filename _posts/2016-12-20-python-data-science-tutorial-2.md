@@ -48,7 +48,7 @@ PTT Web 版 Beauty 板首頁 https://www.ptt.cc/bbs/Beauty/index.html 在瀏覽�
 
 要透過 Python 取得該頁資料，我們使用 `requests` 套件的 `requests.get()` 方法, 首先定義 `get_web_page()` 函式
 
-```
+``` python
 def get_web_page(url):
     resp = requests.get(
         url=url,
@@ -65,7 +65,7 @@ def get_web_page(url):
 
 定義好 `get_web_page()` 函式之後, 就能呼叫它來取得網頁內容:
 
-```
+``` python
 page = get_web_page('https://www.ptt.cc/bbs/Beauty/index.html')
 if page:
 	print(page)
@@ -73,7 +73,7 @@ if page:
 
 結果為
 
-```
+``` html
 <!DOCTYPE html>
 <html>
 <head>
