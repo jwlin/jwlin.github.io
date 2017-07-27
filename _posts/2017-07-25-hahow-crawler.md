@@ -60,7 +60,7 @@ def crawl():
 
 將所有課程擷取下來後，我們看到每一筆課程資料內容如下:
 
-``` javascript
+```
 {
     "_id": "58744feda8aae907000d06c0",
     "categories": [
