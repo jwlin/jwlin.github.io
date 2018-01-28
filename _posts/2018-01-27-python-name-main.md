@@ -3,8 +3,8 @@ layout: post
 title: Python - if __name__ == '__main__' 涵義
 categories: Programming
 tags:
-  - Programming
-  - Python
+  - python
+  - tutorial
 ---
 
 相信許多人初學 Python 時，常會在範例程式內看到類似的段落：
