@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python: if __name__ == '__main__' 涵義
+title: Python: __name__ == __main__ 涵義
 categories: Programming
 tags:
   - Programming
