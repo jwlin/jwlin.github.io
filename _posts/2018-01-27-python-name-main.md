@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python - if __name__ == '__main__' 涵義
-categories: Programming
+categories: 教學
 tags:
   - python
   - tutorial
