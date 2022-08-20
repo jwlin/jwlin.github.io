@@ -2,12 +2,10 @@
   <h4>{{ site.locales[site.default_locale].Aboutme }}</h4>
   <!--<img title="{{site.author}}" src="{{site.aboutme_photo}}" alt="{{site.author}}"/>-->
   <span>{{site.aboutme}}</span>
+  <a href="https://jimoncode.com">My New Blog</a>
   <br />
-
-  {% if site.ShowContactInfo == "True" %}
-  
+  {% if site.ShowContactInfo == "True" %}  
   <a href="https://jlin.info" title="Website: jlin.info">Website</a> /
-
   {% if site.email != empty %}
   <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">Email</a> /
   {% endif %}
